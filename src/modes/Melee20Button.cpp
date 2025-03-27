@@ -99,13 +99,13 @@ void Melee20Button::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs
             if (!inputs.b) {
                 // MX + L, R, LS, and MS + q1/2/3/4:
                 // 6375 3750 - 30.47 deg - 51 30
-                outputs.leftStickX = 128 + (directions.x * 51);
-                outputs.leftStickY = 128 + (directions.y * 30);
+                outputs.leftStickX = 128 + (directions.x * 54);
+                outputs.leftStickY = 128 + (directions.y * 25);
             } else {
                 // Extended angle to have magnitude similarity for DI
                 // 8500 5125 - 31.09 deg - 68 41
-                outputs.leftStickX = 128 + (directions.x * 68);
-                outputs.leftStickY = 128 + (directions.y * 41);
+                outputs.leftStickX = 128 + (directions.x * 72);
+                outputs.leftStickY = 128 + (directions.y * 34);
             }
         }
 

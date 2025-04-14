@@ -1,3 +1,5 @@
+The only addition I have made to the following is to change Wavedash angles to 27 degrees from the default of 30.5.
+
 # HayBox Limited Edition
 
 This is a firmware designed to comply with the proposed controller ruleset for Melee based on Haystack's HayBox.
